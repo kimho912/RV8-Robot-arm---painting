@@ -1,0 +1,95 @@
+This robot is a device that allows users to program what they want to draw using an airbrush. The airbrush is connected to an air compressor and operates by receiving signals from a computer. Additionally, there are emergency stop buttons placed in several locations so that users can terminate the program at any time. At the end of the rail that moves the robot along the Y-axis, there are inductive sensors that will display a warning orange light if the allowed range is exceeded. The light tower indicates the current program status with green, orange, and red lights.
+\subsection{Airbrush}
+\subsubsection{Description}
+The airbrush is connected to an air compressor, which in turn is connected to a PLC (Programmable Logic Controller) to receive signals for operation. The air compressor is designed to automatically adjust the pressure. Users can command the robot to spray ink when it reaches the desired position and to stop. Additionally, the robot is programmed to work when the light tower is green.
+\subsubsection{Source}
+CSE Senior Design project specifications.
+\subsubsection{Constraints}
+If the drawings or prints are large, the ink storage capacity could be an issue. A large ink storage space would be needed based on usage. Additionally, it is important to continuously maintain the cleanliness of the airbrush to ensure it does not clog and can spray a consistent amount.
+\subsubsection{Standards}
+\begin{itemize}
+\item ISO 10218 Robots and robotic devices - Safety requirements for industrial robots: In order to ensure the safe interaction of the robot arm with the airbrush and other equipment.
+\end{itemize}
+\subsubsection{Priority}
+\begin{itemize}
+\item Critical:
+This is the main purpose of the project. Without the airbrush, it cannot function.
+\end{itemize}
+\subsection{Runtime setup}
+\subsubsection{Description}
+This feature is related to the ability to configure and adjust the time parameters of automated operations or processes within the system. Users can specify the duration of various tasks, ensuring precise control over timing for optimal system performance. This setting allows for the fine-tuning of process duration to meet specific operational needs.
+\subsubsection{Source}
+Hyun Ho Kim has expressed the need for flexible and customizable runtime settings to adapt the system's performance to their unique requirements. 
+\subsubsection{Constraints}
+Sustainability: Any changes made to runtime settings should not compromise the system's overall sustainability and energy efficiency.
+\subsubsection{Priority}
+\begin{itemize}
+\item Low:
+While the ability to configure runtime parameters is a valuable feature, it is not considered critical to the core functionality of the product at this time.
+\end{itemize}
+\subsection{Green Light Signal}
+\subsubsection{Description}
+The green light tower is a visual indicator designed to signal the operational status of a critical system or process. This tower consists of multiple stacked light modules that emit a bright green light when the system is in an operational or "go" status. When the system is in a non-operational or "stop" status, the green light tower remains off. The green light tower serves as a quick and easily visible means of providing real-time status information, enhancing safety and productivity in industrial and manufacturing environments.
+\subsubsection{Source}
+CSE Senior Design project specifications.
+\subsubsection{Constraints}
+Health and Safety: It should meet safety standards to prevent potential hazards or misinterpretation of status.
+Environmental: The components of the green light tower should be environmentally friendly and compliant with relevant regulations regarding materials and energy consumption.
+\subsubsection{Standards}
+\begin{itemize}
+\item EN ISO 13850: Safety of machinery - Emergency stop function - Principles for design.
+\item IEC 60947-5-2:2019 Low-voltage switchgear and controlgear - Part 5-2: Control circuit devices and switching elements - Proximity switches
+\end{itemize}
+\subsubsection{Priority}
+\begin{itemize}
+\item High:
+This feature is very important for the product as it directly impacts the safety and efficiency of industrial operations. The green light tower is essential for providing real-time status information, enhancing worker safety, and ensuring smooth and error-free processes. Its absence would compromise both operational safety and productivity, making it a fundamental requirement.
+\end{itemize}
+\subsection{Orange Light Signal}
+\subsubsection{Description}
+The orange light is a distinctive visual indicator designed to signal specific conditions or events within the system. This light module emits a bright orange light when the inductive sensors detect metals or when a warning or alert status is triggered. It serves as a clear and easily recognizable means of providing immediate visual cues to operators or users, enhancing safety and ensuring efficient response to critical events.
+\subsubsection{Source}
+CSE Senior Design project specifications.
+\subsubsection{Constraints}
+Health and Safety: It should meet safety standards to prevent potential hazards or misinterpretation of status.
+Environmental: The components of the orange light tower should be environmentally friendly and compliant with relevant regulations regarding materials and energy consumption.
+\subsubsection{Standards}
+\begin{itemize}
+\item EN ISO 13850: Safety of machinery - Emergency stop function - Principles for design.
+\item IEC 60947-5-2:2019 Low-voltage switchgear and controlgear - Part 5-2: Control circuit devices and switching elements - Proximity switches
+\end{itemize}
+\subsubsection{Priority}
+\begin{itemize}
+\item High:
+This feature is very important for the product as it directly impacts the safety and efficiency of industrial operations. The orange light tower is essential for providing real-time status information, enhancing worker safety, and ensuring smooth and error-free processes. Its absence would compromise both operational safety and productivity, making it a fundamental requirement.
+\end{itemize}
+\subsection{Red Light Signal}
+\subsubsection{Description}
+The red light signal is a vital visual indicator designed to signal immediate stop or emergency conditions within the system. This light module emits a bright red light when predefined critical events or emergency states occur. It serves as a clear and universally recognized means of conveying urgent visual cues to operators or users, ensuring safety and facilitating quick, decisive responses in emergency situations.
+\subsubsection{Source}
+CSE Senior Design project specifications.
+\subsubsection{Constraints}
+Health and Safety: It should meet safety standards to prevent potential hazards or misinterpretation of status.
+Environmental: The components of the red light tower should be environmentally friendly and compliant with relevant regulations regarding materials and energy consumption.
+\subsubsection{Standards}
+\begin{itemize}
+\item EN ISO 13850: Safety of machinery - Emergency stop function - Principles for design.
+\item IEC 60947-5-2:2019 Low-voltage switchgear and controlgear - Part 5-2: Control circuit devices and switching elements - Proximity switches
+\end{itemize}
+\subsubsection{Priority}
+\begin{itemize}
+\item High:
+This feature is very important for the product as it directly impacts the safety and efficiency of industrial operations. The red light tower is essential for providing real-time status information, enhancing worker safety, and ensuring smooth and error-free processes. Its absence would compromise both operational safety and productivity, making it a fundamental requirement.
+\end{itemize}
+
+\subsection{Installation of Linear Rail}
+\subsubsection{Description}
+In addition to the robot arm, an important component is required for desire functionality, namely the linear rail. Serving as the system's 7th axis complementing the robot arm's existing 6 axes, the linear rail is a crucial addition. Its primary role is to facilitate backward and forward movements, significantly enhancing the system's versatility. The integration of this linear rail component adds seamless and efficient operations, allowing the robot arm to navigate and position itself with great accuracy and efficiency, meeting the specific customer demands.
+\subsubsection{Source}
+Team ROBO CREW 
+\subsubsection{Constraints}
+Linear rail needs to setup properly. 
+\subsubsection{Standards}
+Not applicable. 
+\subsubsection{Priority}
+High
